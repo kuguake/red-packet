@@ -1,0 +1,53 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta name="viewport" id="viewportid" content="target-densitydpi=285,width=640,user-scalable=no">
+<meta name = "apple-mobile-web-app-capable" content="yes"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>母亲节红包红包抽奖</title>
+<link href="css/global.css" rel="stylesheet" type="text/css">
+<link href="css/style.css?333" rel="stylesheet" type="text/css">
+
+<body ontouchstart="">
+	<div class="section">
+		<div id="last-bg">
+			<div class="last-top"></div>
+			<div class="tishi mg-auto">恭喜您本次获得</div>
+			<div class="random-box mg-auto mg-t-10">
+				<div class="sum-box">
+						<span>8.88</span>
+						<em>元</em>
+				</div>
+			</div>
+			<div class="tishi2 mg-auto mg-t-10">您还有<span>1</span>次机会，继续去拆拆拆！</div>
+			<div class="btn-380-box mg-auto mg-t-30"><button class="btn-380" onclick="target()">再拆一个</button></div>
+			
+			<div class="footer-logo mg-auto  mg-t-40"><img src="images/footer-logo.jpg"></div>
+			<div class="global-push-box mg-auto mg-t-10">
+				<div class="global-push mg-auto" id="global-push">
+						<div class="global-push-area">
+							<div id="global-push-dome1">
+								<ul>
+									VIP1 于*为拆得红包2次，共计18.23元
+								</ul>
+							</div>
+							<div id="global-push-dome2"></div>
+						</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+<script src="js/common/sea.js"></script>
+<script src="js/luckmoney/seajsconfig.js"></script>
+<script>
+seajs.use('luckmoney/init');
+</script>
+<script type="text/javascript">
+	var target = function(){
+		window.location.href="index2.html";
+	}
+</script>
+</body>
+</html>
+
